@@ -20,6 +20,29 @@
  * ts is js with extra features
  */
 
+
+/* 
+  1. TS Types
+  https://www.typescriptlang.org/docs/handbook/basic-types.html
+
+  Boolean
+Number
+String
+Array
+Tuple
+Enum
+Unknown
+Any
+Void
+Null and Undefined
+Never
+Object
+*/ 
+console.log(`1. TS Types`)
+
+
+console.log(`\n\n -------------------------------- \n\n`)
+
 /* 
   1. Implicit Declaration
 */ 
@@ -58,11 +81,34 @@ console.log(`\n\n -------------------------------- \n\n`)
 
 
 
-/* 
-  2. Explicit Declaration
-*/ 
-console.log(`2. Explicit Declaration`)
 
+
+/* 
+  3. Type Declaration
+  interface and type
+*/ 
+// info is our editor, how nice!
+console.log(`3. Type Declaration`)
+// https://blog.logrocket.com/types-vs-interfaces-in-typescript/
+
+interface Athlete {
+  name: string
+  sport: string
+  age: number
+  professional?: boolean
+}
+
+type Professional = {
+  industry: string;
+  name: string;
+}
+
+// const chrisWebber: Athlete = {}
+
+// const cali: Professional = {
+//   industry: 'health tech',
+//   name: 'cali'
+// }
 
 console.log(`\n\n -------------------------------- \n\n`)
 
