@@ -1,8 +1,10 @@
 # vanilla typescript demo
 
+Hack Reactor TS demo.
+
 ## running
 
-install
+install single ts package. alternately, can install ts globally.
 
 `npm install`
 
@@ -27,3 +29,5 @@ run the js file
 [Intro to TS Article](https://dev.to/racheladaw/intro-to-typescript-4d8k)
 
 [Types vs Interface Deep Dive](https://dev.to/stereobooster/typescript-type-vs-interface-2n0c)
+
+[TypeScript Deep Dive](https://basarat.gitbook.io/typescript/future-javascript/promise)
