@@ -43,7 +43,7 @@
   Running TSC
 */
 console.log(`Running TSC`);
-// 1. compile
+// 1. compile by using the ts compler (tsc)
 // 2. run js
 // viola!
 
@@ -282,7 +282,7 @@ console.log(`Void`);
 console.log(`\n\n -------------------------------- \n\n`);
 
 /* 
-  Void 
+  Any  
 */
 console.log(`Any 🙄`);
 // NOTE: good use case is when you bring in a 3rd party library that doesn't have its own TS library
